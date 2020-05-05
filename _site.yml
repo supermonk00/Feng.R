@@ -4,8 +4,16 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Journal"
+    - text: ""
       href: Journal.html
     - text: "Links"
       href: Links.html
 output_dir: "docs"
+
+right:
+    - text: "Contact me"
+      icon: fa-envelope-o
+      href: mailto:B04601045@ntu.edu.tw                    # CHANGE HERE 
+    - text: "GitHub"
+      icon: fa-github
+      href: https://github.com/supermonk00       # CHANGE HERE
