@@ -15,7 +15,9 @@ navbar:
       href: mailto:B04601045@ntu.edu.tw                
     - text: "GitHub"
       icon: fa-github
-      href: https://github.com/supermonk00       
+      href: https://github.com/supermonk00 
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/宇峰-何-2a9a79167/     
 output_dir: "docs"
 
      
