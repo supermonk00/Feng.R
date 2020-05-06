@@ -1,6 +1,6 @@
 name: "Feng"
 navbar:
-  title: "Feng"
+  title: "Yu-Feng HO"
   left:
     - text: "Home"
       href: index.html
@@ -18,6 +18,8 @@ navbar:
       href: https://github.com/supermonk00 
     - icon: fa-linkedin
       href: https://www.linkedin.com/in/宇峰-何-2a9a79167/     
+  banner:
+   
 output_dir: "docs"
 
      
