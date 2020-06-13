@@ -10,12 +10,12 @@ navbar:
     - text: "R stats"
       menu:
 	-text: "Project"
-	-href: Blog.html
+	 href: Blog.html
 	-text: "Blog"
 	 href: Blog.html
 	-text: "Youtube"
 	 icon: icon-youtube
-	-href: https://www.youtube.com/channel/UCdM8JdRZJXcDfZVUnLuwsCg?view_as=subscriber
+	 href: https://www.youtube.com/channel/UCdM8JdRZJXcDfZVUnLuwsCg?view_as=subscriber
       href: Links.html
   right:
     - text: "Contact me"
