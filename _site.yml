@@ -1,13 +1,21 @@
 name: "Feng"
 navbar:
-  title: "Yu-Feng HO"
+  title: "峰 Feng"
   left:
     - text: "Home"
       href: index.html
     - text: "About"
       icon: fa-user 
       href: about.html
-    - text: "Links"
+    - text: "R stats"
+      menu:
+	-text: "Project"
+	-href: Blog.html
+	-text: "Blog"
+	 href: Blog.html
+	-text: "Youtube"
+	 icon: icon-youtube
+	-href: https://www.youtube.com/channel/UCdM8JdRZJXcDfZVUnLuwsCg?view_as=subscriber
       href: Links.html
   right:
     - text: "Contact me"
@@ -18,8 +26,13 @@ navbar:
       href: https://github.com/supermonk00 
     - icon: fa-linkedin
       href: https://www.linkedin.com/in/宇峰-何-2a9a79167/     
-  banner:
+
    
 output_dir: "docs"
+
+output:
+  html_document:
+    theme: sandstone
+    highlight: tango
 
      
