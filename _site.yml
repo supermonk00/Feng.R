@@ -7,16 +7,14 @@ navbar:
     - text: "About"
       icon: fa-user 
       href: about.html
-    - text: "R stats"
+    - text: "Link"
+      icon: fa-gear
       menu:
-	-text: "Project"
-	 href: Blog.html
-	-text: "Blog"
-	 href: Blog.html
-	-text: "Youtube"
-	 icon: icon-youtube
-	 href: https://www.youtube.com/channel/UCdM8JdRZJXcDfZVUnLuwsCg?view_as=subscriber
-      href: Links.html
+        - text: "Blog"
+          href: https://medium.com/@supermonk00
+        - text: "Youtube"
+          href: https://www.youtube.com/channel/UCdM8JdRZJXcDfZVUnLuwsCg/featured?view_as=subscriber
+    
   right:
     - text: "Contact me"
       icon: fa-envelope-o
@@ -25,7 +23,7 @@ navbar:
       icon: fa-github
       href: https://github.com/supermonk00 
     - icon: fa-linkedin
-      href: https://www.linkedin.com/in/宇峰-何-2a9a79167/     
+      href: https://www.linkedin.com/in/yu-feng-ho-2a9a79167/     
 
    
 output_dir: "docs"
