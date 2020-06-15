@@ -9,11 +9,12 @@ title: "About me"
 #####The stories were published in *[Medium](https://medium.com/@supermonk00)*
 
 #Background
- * ####Bachelor Degree, *Department of Agronomy, National Taiwan University*
-
- * ####Technician assistant ,*Taiwan International Cooperation Fund, St. Kitts & Nevis*
 
  * ####Master Degree, *Environment and Resource Management, Vrije Universiteit Amsterdam*
+ 
+ * ####Technician assistant ,*Taiwan International Cooperation Fund, St. Kitts & Nevis*
+
+ * ####Bachelor Degree, *Department of Agronomy, National Taiwan University*
 
 #Motto
   人一能之，己百之; 人十能之，己千之<br>
