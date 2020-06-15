@@ -1,8 +1,17 @@
 ---
-title: "Analytic Project Warehouse"
+title: "Feng's Programming Warehouse"
 output: html_document
 ---
+<div class="col-sm-6">
+</a>
+![](images/website.picture.png)
+</a>
+</div>
 
-The World Trend: Data
-=====
-THe
+# -Small Side Project-
+
+### Bar chart race (via [Flourish.studio](https://flourish.studio))
+
+#####1. [Tomato Trial](https://preview.flourish.studio/2796245/ayQJ9jWAgFND7KjslUvAEj7jHr1aQQKd__Ydgukr5o2AWfSMa2TqfA2Titcu04pT/)：Harvest of tomatoes among four varieties
+
+#####2. [COVID-19 in Caribean](https://preview.flourish.studio/2678801/5KAfvqHryXxiRyMzkyH1R72I0aCoN05ouW6fVZAKj-DIVIfeTxTMQzS_UYWSg1Km/)：Confirmed *COVD-19* cases acculuamted among Caribean countries
