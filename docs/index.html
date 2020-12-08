@@ -20,8 +20,20 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -322,16 +334,19 @@ $(document).ready(function () {
 <div class="col-sm-6">
 <p></a> <img src="images/website.picture.png" /> </a></p>
 </div>
-<div id="small-side-project-" class="section level1">
-<h1>-Small Side Project-</h1>
+<div id="deeplearning-course-" class="section level1">
+<h1>-DeepLearning Course-</h1>
+<p>1.Handwritten Neural Network(<a href="https://github.com/supermonk00/Deeplearning-VU-2020/blob/main/Handwritten%20model/Task.pdf">Task</a>)(<a href="">Report</a>)</p>
+<p>2.Auto Differentation(<a href="https://github.com/supermonk00/Deeplearning-VU-2020/blob/main/Auto%20differentiation/Task.pdf">Task</a>)(<a href="">Report</a>)</p>
+<p>3.Convolutional Neural Network(<a href="https://github.com/supermonk00/Deeplearning-VU-2020/blob/main/CNN/Task.pdf">Task</a>)(<a href="https://github.com/supermonk00/Deeplearning-VU-2020/blob/main/CNN/Report.pdf">Report</a>)</p>
+<p>4.Recurrent Neural Network(<a href="https://github.com/supermonk00/Deeplearning-VU-2020/blob/main/RNN/Task.pdf">Task</a>)(<a href="https://github.com/supermonk00/Deeplearning-VU-2020/blob/main/RNN/Report.pdf">Report</a>)</p>
+</div>
+<div id="tiny-side-project-" class="section level1">
+<h1>-Tiny Side Project-</h1>
 <div id="bar-chart-race-via-flourish.studio" class="section level3">
 <h3>Bar chart race (via <a href="https://flourish.studio">Flourish.studio</a>)</h3>
-<div id="tomato-trialharvest-of-tomatoes-among-four-varieties" class="section level5">
-<h5>1. <a href="https://preview.flourish.studio/2796245/ayQJ9jWAgFND7KjslUvAEj7jHr1aQQKd__Ydgukr5o2AWfSMa2TqfA2Titcu04pT/">Tomato Trial</a>：Harvest of tomatoes among four varieties</h5>
-</div>
-<div id="covid-19-in-caribeanconfirmed-covd-19-cases-acculuamted-among-caribean-countries" class="section level5">
-<h5>2. <a href="https://preview.flourish.studio/2678801/5KAfvqHryXxiRyMzkyH1R72I0aCoN05ouW6fVZAKj-DIVIfeTxTMQzS_UYWSg1Km/">COVID-19 in Caribean</a>：Confirmed <em>COVD-19</em> cases acculuamted among Caribean countries</h5>
-</div>
+<p>#####1. <a href="https://preview.flourish.studio/2796245/ayQJ9jWAgFND7KjslUvAEj7jHr1aQQKd__Ydgukr5o2AWfSMa2TqfA2Titcu04pT/">Tomato Trial</a>：Harvest of tomatoes among four varieties</p>
+<p>#####2. <a href="https://preview.flourish.studio/2678801/5KAfvqHryXxiRyMzkyH1R72I0aCoN05ouW6fVZAKj-DIVIfeTxTMQzS_UYWSg1Km/">COVID-19 in Caribean</a>：Confirmed <em>COVD-19</em> cases acculuamted among Caribean countries</p>
 </div>
 </div>
 
@@ -344,7 +359,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

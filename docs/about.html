@@ -20,8 +20,20 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -319,30 +331,16 @@ $(document).ready(function () {
 </div>
 
 
-<div id="i-am-a-native-taiwanese-a-agriculturist-an-environmentalist-a-r-programmer." class="section level5">
-<h5>I am a native Taiwanese, a agriculturist, an environmentalist, a R programmer.</h5>
-</div>
-<div id="my-interest-is-to-explore-data-clean-data-and-visualize." class="section level5">
-<h5>My interest is to explore data, clean data and visualize.</h5>
-</div>
-<div id="also-i-like-to-write-some-tutorials-and-tips-toward-r-programming." class="section level5">
-<h5>Also, I like to write some tutorials and tips toward R programming.</h5>
-</div>
-<div id="the-stories-were-published-in-medium" class="section level5">
-<h5>The stories were published in <em><a href="https://medium.com/@supermonk00">Medium</a></em></h5>
-</div>
-<div id="background" class="section level1">
-<h1>Background</h1>
+<p>#####I am a native Taiwanese, a agriculturist, an environmentalist, a R programmer.</p>
+<p>#####My interest is to explore data, clean data and visualize. #####Also, I like to write some tutorials and tips toward R programming.</p>
+<p>#####The stories were published in <em><a href="https://medium.com/@supermonk00">Medium</a></em></p>
+<p>#Background</p>
 <ul>
-<li><h4 id="master-degree-environment-and-resource-management-vrije-universiteit-amsterdam">Master Degree, <em>Environment and Resource Management, Vrije Universiteit Amsterdam</em></h4></li>
-<li><h4 id="technician-assistant-taiwan-international-cooperation-fund-st.kitts-nevis">Technician assistant ,<em>Taiwan International Cooperation Fund, St. Kitts &amp; Nevis</em></h4></li>
-<li><h4 id="bachelor-degree-department-of-agronomy-national-taiwan-university">Bachelor Degree, <em>Department of Agronomy, National Taiwan University</em></h4></li>
+<li><p>####Master Degree, <em>Environment and Resource Management, Vrije Universiteit Amsterdam</em></p></li>
+<li><p>####Technician assistant ,<em>Taiwan International Cooperation Fund, St. Kitts &amp; Nevis</em></p></li>
+<li><p>####Bachelor Degree, <em>Department of Agronomy, National Taiwan University</em></p></li>
 </ul>
-</div>
-<div id="motto" class="section level1">
-<h1>Motto</h1>
-<p>人一能之，己百之; 人十能之，己千之<br> Where there is a will, there’s a way<br> L’essentiel est invisible pour les yeux</p>
-</div>
+<p>#Motto 人一能之，己百之; 人十能之，己千之<br> Where there is a will, there’s a way<br> L’essentiel est invisible pour les yeux</p>
 
 
 
@@ -353,7 +351,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

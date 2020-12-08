@@ -7,8 +7,18 @@ output: html_document
 ![](images/website.picture.png)
 </a>
 </div>
+# -DeepLearning Course-
 
-# -Small Side Project-
+1.Handwritten Neural Network([Task](https://github.com/supermonk00/Deeplearning-VU-2020/blob/main/Handwritten%20model/Task.pdf))([Report]())
+
+2.Auto Differentation([Task](https://github.com/supermonk00/Deeplearning-VU-2020/blob/main/Auto%20differentiation/Task.pdf))([Report]())
+
+3.Convolutional Neural Network([Task](https://github.com/supermonk00/Deeplearning-VU-2020/blob/main/CNN/Task.pdf))([Report](https://github.com/supermonk00/Deeplearning-VU-2020/blob/main/CNN/Report.pdf))
+
+4.Recurrent Neural Network([Task](https://github.com/supermonk00/Deeplearning-VU-2020/blob/main/RNN/Task.pdf))([Report](https://github.com/supermonk00/Deeplearning-VU-2020/blob/main/RNN/Report.pdf))
+
+
+# -Tiny Side Project-
 
 ### Bar chart race (via [Flourish.studio](https://flourish.studio))
 
